@@ -1,0 +1,51 @@
+# Gigs To Go - Side Gig Marketplace
+
+A full-stack web application that connects people offering and seeking side gigs like lawn mowing, repairs, web development, and babysitting.
+
+## Features
+
+### User Management
+
+- User registration and authentication with Passport.js
+- Social login options (Google, Facebook)
+- User profiles with contact info and gig management
+- Secure dashboard for managing posted gigs
+
+### Gig Listings
+
+- Post gigs with title, description, category, location, price and images
+- Browse gigs by categories:
+  - Electrical Gigs
+  - Mechanical Gigs
+  - Babysitting/House-Sitting
+  - Web & Creative Services
+  - Other Side Gigs
+- Advanced search with filters for categories, location, price and availability
+
+### Payments & Security
+
+- Secure payment processing with Stripe integration
+- Admin dashboard for content moderation and dispute management
+
+## Tech Stack
+
+- Frontend: React.js with Tailwind CSS
+- Backend: Node.js + Express.js
+- Database: MongoDB
+- Authentication: Passport.js
+- Payments: Stripe API
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Set up environment variables
+4. Run development server: `npm run dev`
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on contributing to this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
